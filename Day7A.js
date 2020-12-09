@@ -1,4 +1,4 @@
-const { uniq, sum, all } = require('ramda');
+const { uniq } = require('ramda');
 const { getInput } = require('./utils');
 
 const bagRegex = / (bags|bag)/i;

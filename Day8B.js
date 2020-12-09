@@ -1,4 +1,3 @@
-const { uniq, sum, all } = require('ramda');
 const { getInput } = require('./utils');
 
 const day8B = async () => {

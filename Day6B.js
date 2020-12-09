@@ -1,6 +1,6 @@
 const { Subject } = require('rxjs');
 const { buffer, filter, map, mergeMap, toArray } = require('rxjs/operators');
-const { uniq, sum, intersection } = require('ramda');
+const { sum, intersection } = require('ramda');
 const { getInputObservable } = require('./utils');
 
 const day6B = async () => {
