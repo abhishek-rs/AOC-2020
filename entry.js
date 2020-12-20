@@ -35,6 +35,8 @@ const day17A = require('./Day17A');
 const day17B = require('./Day17B');
 const day18A = require('./Day18A');
 const day18B = require('./Day18B');
+const day19A = require('./Day19A');
+const day19B = require('./Day19B');
 
 (async () => {
   const selection = await prompts({
@@ -78,6 +80,8 @@ const day18B = require('./Day18B');
       { title: 'Day 17 - B', value: day17B },
       { title: 'Day 18 - A', value: day18A },
       { title: 'Day 18 - B', value: day18B },
+      { title: 'Day 19 - A', value: day19A },
+      { title: 'Day 19 - B', value: day19B },
     ],
   });
 
